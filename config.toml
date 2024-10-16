@@ -1,0 +1,8 @@
+[local_files]
+input_file = "dados/dados.txt"
+cleaned_file = "dados/dados_limpos.txt"
+processed_file = "dados/dados_processados.txt"
+report_file = "dados/relatorio.txt"
+cubes_file = "dados/cubes.txt"
+numbers_up_to_10_file = "dados/numbers_up_to_10.txt"
+squares_file = "dados/squares.txt"
