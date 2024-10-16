@@ -1,10 +1,18 @@
 # Orquestração de tarefas (pipeline) com Luigi
-[](./images/luigi.webp)
-exemplo de implemtação de orquestração de tarefas em python utilizando as tecnologias
+![Static Badge](https://img.shields.io/badge/python--green)
+![Static Badge](https://img.shields.io/badge/jupyter--green)
+![Static Badge](https://img.shields.io/badge/vscode--green)
+![Static Badge](https://img.shields.io/badge/luigi--green)
+![Static Badge](https://img.shields.io/badge/toml--blue)
+
+![luigi](images/luigi.webp)
+
+### Apresentação
+Neste projeto foi implementado um exemplo simples orquestração de tarefas em python utilizando as tecnologias
 - [luigi](https://luigi.readthedocs.io/en/stable/index.html)
 - [toml](https://github.com/toml-lang/toml)
 
-> O Luigi é um pacote python que auxilia a construção de pipelines complexos de trabaho em lotes. Ele lida com:
+O Luigi é um pacote python que auxilia a construção de pipelines complexos de trabaho em lotes. Ele lida com:
 - resolução de dependência
 - gerenciamento de fluxo de trabalho
 - visualização
@@ -65,11 +73,11 @@ rm -rf dados
 
 ## Capturas de tela da Execução
 1. Lista de Tarefas (tasklist)
-[](./images/taskllist.png)
+![tarefas](images/taskllist.png)
 
 2. Graficos da Execução
-[](./images/grafico.png)
+![graficos](images/grafico.png)
 
 3. Workers
-[](./images/workers.png)
+![workers](images/workers.png)
 
