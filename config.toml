@@ -1,8 +1,21 @@
+[input_data]
+content = "teste de string"
+
+[paths]
+input = "dados/input.txt"
+output_1_a = "dados/output_1_a.txt"
+output_1_b = "dados/output_1_b.txt"
+output_1_c = "dados/output_1_c.txt"
+output_1_d = "dados/output_1_d.txt"
+output_final_1 = "dados/output_final_1.txt"
+        
 [local_files]
 input_file = "dados/dados.txt"
 cleaned_file = "dados/dados_limpos.txt"
 processed_file = "dados/dados_processados.txt"
 report_file = "dados/relatorio.txt"
+
+[pipe_simple]
 cubes_file = "dados/cubes.txt"
 numbers_up_to_10_file = "dados/numbers_up_to_10.txt"
 squares_file = "dados/squares.txt"
